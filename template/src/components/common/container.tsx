@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet, ScrollView, Pressable, Keyboard} from 'react-native';
-// import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
+import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {useTheme} from '@react-navigation/native';
 
 interface ContainerType {
@@ -15,31 +15,28 @@ interface ContainerType {
 const Container = ({
   children,
   useScrollView,
-  // useKeyboardAware,
-  // keyboardAwareProps,
+  useKeyboardAware,
+  keyboardAwareProps,
   style,
   contentContainerStyle,
 }: ContainerType) => {
   const {colors} = useTheme();
-
-  //  useKeyboardAware ? (
-  //   <KeyboardAwareScrollView
-  //     viewIsInsideTabBar
-  //     {...keyboardAwareProps}
-  //     style={[styles.container, style]}
-  //     contentContainerStyle={[
-  //       styles.contentContainerStyle,
-  //       contentContainerStyle,
-  //     ]}
-  //     enableOnAndroid={false}
-  //     extraScrollHeight={100}
-  //     // viewIsInsideTabBar
-  //   >
-  //     {children}
-  //   </KeyboardAwareScrollView>
-  // ) :
   const backgroundColor = {backgroundColor: colors.primary};
-  return useScrollView ? (
+
+  return useKeyboardAware ? (
+    <KeyboardAwareScrollView
+      // viewIsInsideTabBar
+      {...keyboardAwareProps}
+      style={[styles.container, style]}
+      contentContainerStyle={[
+        styles.contentContainerStyle,
+        contentContainerStyle,
+      ]}
+      enableOnAndroid={false}
+      extraScrollHeight={100}>
+      {children}
+    </KeyboardAwareScrollView>
+  ) : useScrollView ? (
     <ScrollView
       bounces={false}
       style={[styles.scrollView, style, backgroundColor]}
