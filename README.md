@@ -1,12 +1,14 @@
+Mobi Lab / We make robots talk to humans
+
 # React Native Template
 
-This project aims to be a strong foundation for react-native applications. It provides a clear and organized structure, core dependencies, and boilerplate to jumpstart development with TypeScript.
+This project aims to be a strong foundation for React Native applications. It provides a clear and organized structure, core dependencies, and boilerplate to jumpstart development with TypeScript.
 
 ## Requirements
 
 - ts-node
 - [environment setup](https://reactnative.dev/docs/environment-setup) for
-  react-native
+  React Native
 
 ## How to use
 
@@ -26,15 +28,15 @@ https://github.com/junedomingo/react-native-rename
 
 ## Change bundle identifier manually
 
-Based on the react-native version you are using there are bunch of files that have to be changed on both platforms (android and ios)
+Based on the React Native version you are using there are bunch of files that have to be changed on both platforms (Android and iOS)
 
 List of files to edit:
 
-IOS
+iOS
 
 [application_build_scheem].plist (this is a dict/xml file that contains keys that are used by default if no changes added to project (react-native-cli init type of project)
 
-ANDROID
+Android
 
 1. strings.xml (change app_name key value)
 2. manifest.xml (change package attribute)
@@ -83,3 +85,13 @@ Other Features:
 
 - Multilanguage Support
 - Dark & Light Theme Support
+
+## Contact
+
+### Mobi Lab
+
+Email: [hello@lab.mobi](mailto:hello@lab.mobi)
+
+Twitter: https://mobile.twitter.com/LabMobi
+
+Web: https://lab.mobi/
