@@ -64,6 +64,7 @@ This template will setup the following libs:
 - [Async Storage](https://github.com/react-native-async-storage/async-storage#readme): Asynchronous, persistent, key-value storage system
 - [React Redux](https://github.com/reduxjs/react-redux): Global State management
 - [reduxjs/toolkit](https://redux-toolkit.js.org): The official, opinionated, batteries-included toolset for efficient Redux development
+- [react-native-keyboard-aware-scroll-view](https://github.com/APSL/react-native-keyboard-aware-scroll-view): A ScrollView component that handles keyboard appearance and automatically scrolls to focused TextInput.
 - [React-Native-SVG](https://github.com/software-mansion/react-native-svg): SVG Support
 - [React Native Config](https://github.com/luggit/react-native-config): Environment Variables
 - [React Native Rename](https://github.com/junedomingo/react-native-rename): Change name and bundle identifier easily
