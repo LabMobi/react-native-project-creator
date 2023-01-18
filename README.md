@@ -69,6 +69,19 @@ This template will setup the following libs:
 - [React Native Config](https://github.com/luggit/react-native-config): Environment Variables
 - [React Native Rename](https://github.com/junedomingo/react-native-rename): Change name and bundle identifier easily
 
+## Optional libs
+
+- [React Native UI Lib](https://wix.github.io/react-native-ui-lib/docs/getting-started/setup)
+  > [optional](https://wix.github.io/react-native-ui-lib/docs/getting-started/setup#optional-dependencies)
+  > and
+  > [native dependencies](https://wix.github.io/react-native-ui-lib/docs/getting-started/setup#install-native-dependencies)
+  > are not installed
+- [React Native Vector Icons](https://github.com/oblador/react-native-vector-icons)
+- [React Native Device Info](https://github.com/react-native-device-info/react-native-device-info)
+- [React Query](https://react-query.tanstack.com/)
+- [React Hooks Form](https://react-hook-form.com/)
+- [Yup](https://github.com/jquense/yup)
+
 Components:
 
 - Typography
