@@ -1,15 +1,19 @@
 #!/usr/bin/env ts-node
-// #!/usr/bin/env node
+import ora from "ora";
+import { inquire } from "./generator";
 
-const readline = require("readline").createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
+const spinner = ora("Optional libraries setup");
 
-readline.question(
-  "Please enter bundle identifier for ios and android: ",
-  (name) => {
-    console.log(`Hey there ${name}!`);
-    readline.close();
-  }
-);
+new Promise((resolve) => {
+  spinner.start();
+  inquire(resolve);
+})
+  .then(() => {
+    spinner.succeed();
+  })
+  .catch((error) => {
+    spinner.fail(error);
+    throw new Error(
+      "Something went wrong during the post init script execution"
+    );
+  });

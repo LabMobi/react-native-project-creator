@@ -1,0 +1,24 @@
+{
+  "name": "rntemplate",
+  "version": "1.0.0",
+  "description": "- ts-node - [environment setup](https://reactnative.dev/docs/environment-setup) for   react-native",
+  "main": "template.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkureli/RNTemplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kkureli/RNTemplate/issues"
+  },
+  "homepage": "https://github.com/kkureli/RNTemplate#readme",
+  "dependencies": {
+    "@types/inquirer": "^8.2.4",
+    "inquirer": "^8.2.2",
+    "ora": "^5.4.1"
+  }
+}

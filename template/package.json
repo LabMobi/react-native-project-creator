@@ -75,5 +75,6 @@
       "json",
       "node"
     ]
-  }
+  },
+  "license": "MIT"
 }
