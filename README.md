@@ -2,7 +2,7 @@ Mobi Lab / We make robots talk to humans
 
 # React Native Template
 
-This project aims to be a strong foundation for React Native applications. It provides a clear and organized structure, core dependencies, and boilerplate to jumpstart development with TypeScript.
+The purpose of this project is to serve as a solid template for React Native applications. It provides clear structure, fundamental dependencies, and boilerplate to kick-start development with TypeScript.
 
 ## Requirements
 
