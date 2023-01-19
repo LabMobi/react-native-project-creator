@@ -16,38 +16,6 @@ This project aims to be a strong foundation for React Native applications. It pr
 npx react-native init <app-name> --template https://github.com/LabMobi/react-native-project-creator
 ```
 
-## How to change bundle identifier
-
-```
-npx react-native-rename "APP_NAME" -b "bundle_identifier"
-```
-
-After renaming project you should clean, build, and reinstall third party dependencies to get it running properly with the new name and bundle identifier.
-
-https://github.com/junedomingo/react-native-rename
-
-## Change bundle identifier manually
-
-Based on the React Native version you are using there are bunch of files that have to be changed on both platforms (Android and iOS)
-
-List of files to edit:
-
-iOS
-
-[application_build_scheem].plist (this is a dict/xml file that contains keys that are used by default if no changes added to project (react-native-cli init type of project)
-
-Android
-
-1. strings.xml (change app_name key value)
-2. manifest.xml (change package attribute)
-3. build.gradle (change applicationId value)
-4. MainActivity.java (change java class package)
-5. MainApplication.java (change java class package)
-
-We also need to change the folder paths to match new name -- change com.oldName to com.newname.mobile, then change folder paths from app/src/java/com/oldName/ to app/src/java/com/newname/mobile/.
-
-Ref: https://stackoverflow.com/a/44481467/10693194
-
 ## Project Environments
 
 This template creates 3 environments. Development, Staging and Production.
@@ -99,6 +67,38 @@ Other Features:
 
 - Multilanguage Support
 - Dark & Light Theme Support
+
+## How to change bundle identifier (Optional)
+
+```
+npx react-native-rename "APP_NAME" -b "bundle_identifier"
+```
+
+After renaming project you should clean, build, and reinstall third party dependencies to get it running properly with the new name and bundle identifier.
+
+https://github.com/junedomingo/react-native-rename
+
+## Change bundle identifier manually (Optional)
+
+Based on the React Native version you are using there are bunch of files that have to be changed on both platforms (Android and iOS)
+
+List of files to edit:
+
+iOS
+
+[application_build_scheem].plist (this is a dict/xml file that contains keys that are used by default if no changes added to project (react-native-cli init type of project)
+
+Android
+
+1. strings.xml (change app_name key value)
+2. manifest.xml (change package attribute)
+3. build.gradle (change applicationId value)
+4. MainActivity.java (change java class package)
+5. MainApplication.java (change java class package)
+
+We also need to change the folder paths to match new name -- change com.oldName to com.newname.mobile, then change folder paths from app/src/java/com/oldName/ to app/src/java/com/newname/mobile/.
+
+Ref: https://stackoverflow.com/a/44481467/10693194
 
 ## Contact
 
