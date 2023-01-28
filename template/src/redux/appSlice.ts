@@ -1,7 +1,7 @@
 import {createSlice} from '@reduxjs/toolkit';
 
 const initialState = {
-  isSplashLoading: false,
+  isSplashLoading: true,
   loading: false,
   error: '',
 };
