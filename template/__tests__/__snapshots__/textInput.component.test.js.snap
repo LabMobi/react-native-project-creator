@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`textInput component renders textInput correctly 1`] = `
+<TextInput
+  clearButtonMode="while-editing"
+  onChangeText={[Function]}
+  placeholderTextColor="rgb(28, 28, 30)"
+  returnKeyType="done"
+  selectionColor="rgb(0, 122, 255)"
+  style={
+    Array [
+      Object {
+        "borderRadius": 7,
+        "borderWidth": 1,
+        "height": 50,
+        "paddingHorizontal": 10,
+        "width": "95%",
+      },
+      Object {
+        "backgroundColor": undefined,
+        "borderColor": undefined,
+        "color": "rgb(0, 122, 255)",
+      },
+      undefined,
+    ]
+  }
+/>
+`;

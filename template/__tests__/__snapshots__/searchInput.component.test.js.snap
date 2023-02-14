@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`searchInput component renders searchInput correctly 1`] = `
+<TextInput
+  onChangeText={[Function]}
+  placeholder="Search..."
+  placeholderTextColor="rgb(0, 122, 255)"
+  style={
+    Array [
+      Object {
+        "alignSelf": "center",
+        "borderColor": "silver",
+        "borderRadius": 10,
+        "borderWidth": 1,
+        "height": 40,
+        "marginVertical": 10,
+        "paddingLeft": 10,
+        "width": "90%",
+      },
+      Object {
+        "backgroundColor": undefined,
+        "color": "rgb(28, 28, 30)",
+      },
+    ]
+  }
+/>
+`;
