@@ -27,6 +27,11 @@ const LightTheme: ExtendedTheme = {
     primaryCyan: '#E8F6FC',
     cyan100: '#19A7DD',
     seaGreen: '#19A7DD',
+    modalBG: 'white',
+    actionButton1Text: '#FFFFFF',
+    optionBG: '#E5F5F4',
+    disabledBG: '#D4D8E3',
+    disabledText: '#949BB5',
   },
 };
 

@@ -29,7 +29,12 @@ export type ThemeColors =
   | 'darkBlue'
   | 'primaryCyan'
   | 'cyan100'
-  | 'seaGreen';
+  | 'seaGreen'
+  | 'modalBG'
+  | 'actionButton1Text'
+  | 'optionBG'
+  | 'disabledBG'
+  | 'disabledText';
 
 declare module '@react-navigation/native' {
   export function useTheme(): ExtendedTheme;

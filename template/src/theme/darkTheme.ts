@@ -27,6 +27,11 @@ const DarkTheme: ExtendedTheme = {
     primaryCyan: '#E8F6FC',
     cyan100: '#19A7DD',
     seaGreen: '#19A7DD',
+    modalBG: '#24333D',
+    actionButton1Text: '#002A53',
+    optionBG: '#002A53',
+    disabledBG: '#D4D8E3',
+    disabledText: '#949BB5',
   },
 };
 
