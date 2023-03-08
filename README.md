@@ -2,6 +2,8 @@ Mobi Lab / We make robots talk to humans
 
 # React Native Template
 
+<img src="img\mobilab-header-logo.png" style="zoom:25%;" />
+
 The purpose of this project is to serve as a solid template for React Native applications. It provides clear structure, fundamental dependencies, and boilerplate to kick-start development with TypeScript.
 
 ## Requirements
